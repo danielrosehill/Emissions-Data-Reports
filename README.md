@@ -4,6 +4,14 @@ This repository contains a few datapoints derived from publicly available sustai
 
 The data was gathered for a specific data visualisation and is open-sourced purely for the purpose of data-sharing. No warranty is offered as to the validity of any data shared, although each entry has been checked to the best of the author's abilities.
 
+## Example Monetisations
+
+The International Foundation for Valuing Impacts (IFVI) recently released a Global Value Factors Database (GVFD) including - among other valuations - a suggested monetisation for GHG emissions at a flat rate of $236 (US dollars per tonne of carbon estimated).
+
+Given that the reporting units in the sustainability reports referenced is MtCO2e (million metric tons of carbon dioxide equivalent) the multiplier - for the purpose of the monetisation estimates is - is `236,000,000` (236 *million*).
+
+![alt text](sample-monetisations/charts/Companies_scopes.png)
+
 ## Author
 
 Daniel Rosehill  
