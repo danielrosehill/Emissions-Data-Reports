@@ -21,3 +21,14 @@
 
 - "MMT" (double M) is more commonly used in US documentation
 - "Mt" (single M) is more commonly used in European and international contexts 
+
+## Quantity Units In Large Vs. "Small" Scale Reporting
+
+Here’s a summary of how carbon emissions are expressed for different scales:
+
+| **Scale**            | **Unit Name**         | **Abbreviation** | **Expression**                |
+|----------------------|-----------------------|------------------|-------------------------------|
+| **Per Tonne**        | Tonne                 | t                | Emissions per tonne (t)       |
+| **Per Thousand Tonnes** | Kilotonne             | kt               | Emissions per thousand tonnes (kt) |
+| **Per Million Tonnes**  | Megatonne             | Mt               | Emissions per million tonnes (Mt)  |
+
