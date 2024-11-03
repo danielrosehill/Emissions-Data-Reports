@@ -7,7 +7,7 @@
 | CO2e/kWh | Carbon dioxide equivalent per kilowatt hour; used to measure emissions intensity of energy consumption | Carbon intensity factor |
 | GWP-100 | Global warming potential over 100 years; measures the long-term impact of different greenhouse gases compared to CO2 | 100-year global warming potential |
 | kgCO2e/unit | Kilograms of carbon dioxide equivalent per specific unit of measurement (e.g., per product, per kilometer) | Emission factor, carbon intensity |
-| MtCO2e | Million metric tons of carbon dioxide equivalent; typically used for large-scale or national emissions reporting | Million tons CO2e |
+| MMtCO2e | Million metric tons of carbon dioxide equivalent; typically used for large-scale or national emissions reporting | Million tons CO2e |
 
 ---
 
