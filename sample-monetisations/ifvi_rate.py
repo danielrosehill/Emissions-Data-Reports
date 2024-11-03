@@ -1,22 +1,20 @@
 import pandas as pd
 
-df = pd.read_csv('2023-oil-and-gas-monetised.csv')  # or your data source
+input_path = '2023_oilandgas_blank.csv'
+output_path = input_path.replace('.csv', '_ifvi_mon.csv')
 
-column_pairs = [
-    ('scope_1', 'scope1_mon'), 
-    ('scope_2', 'scope2_mon'),        
-    ('scope1_and_2', 'scope12_mon'),
-    ('scope_3', 'scope3_mon'),
-    ('scope_1_2_3', 'scope123_mon')
-]
+df = pd.read_csv(input_path)
 
-multiplier = 236
+column_pairs = {
+    'scope_1': 'scope1_mon',
+    'scope_2': 'scope2_mon',
+    'scope1_and_2': 'scope12_mon',
+    'scope_3': 'scope3_mon',
+    'scope_1_2_3': 'scope123_mon'
+}
 
-for source_col, target_col in column_pairs:
-    df[target_col] = df[source_col] * multiplier
+for source, target in column_pairs.items():
+    if source in df.columns:
+        df[target] = df[source] * 236_000_000
 
-input_filename = '2023_oilgas_blank.csv'
-output_filename = input_filename.replace('.csv', '_ifvimonetised.csv')
-
-
-df.to_csv(output_filename, index=False)
+df.to_csv(output_path, index=False)
