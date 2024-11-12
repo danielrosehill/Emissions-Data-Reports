@@ -1,0 +1,34 @@
+Column Name,Data Type,Description
+company,Object,Name of the company.
+env_report_year,Int64,Year of the environmental report.
+scope_1,Float64,Scope 1 emissions (direct greenhouse gas emissions).
+scope1_mon,Float64,Monitoring or additional data related to Scope 1 emissions.
+scope_2,Int64,Scope 2 emissions (indirect emissions from purchased electricity).
+scope2_mon,Float64,Monitoring or additional data related to Scope 2 emissions.
+scope1_and_2,Float64,Combined Scope 1 and Scope 2 emissions.
+scope12_mon,Float64,Monitoring or additional data related to combined Scope 1 and 2 emissions.
+scope_3,Int64,Scope 3 emissions (other indirect emissions
+scope3_mon,Float64,Monitoring or additional data related to Scope 3 emissions.
+scope_1_2_3,Float64,Total combined Scope 1
+scope123_mon,Float64,Monitoring or additional data related to total combined Scope 1
+ebitda,Float64,Earnings Before Interest
+ebitda_units,Object,Units in which EBITDA is reported (e.g.
+ebitda_currency,Object,Currency in which EBITDA is reported (e.g.
+ebitda_year,Float64,Year corresponding to the EBITDA value.
+revenue,Float64,Revenue of the company.
+revenue_units,Object,Units in which revenue is reported.
+revenue_currency,Object,Currency in which revenue is reported.
+revenue_year,Object,Year corresponding to the revenue value.
+pe_ratio,Object,Price-to-Earnings (P/E) ratio of the company.
+pe_ratio_date,Object,Date corresponding to the P/E ratio value.
+pe_ratio_source,Object,Source of the P/E ratio value.
+revenue.1,Object,Duplicate or alternative revenue column (possibly an error or different context).
+revenue_date,Object,Date corresponding to the revenue value in the duplicate column.
+revenue_source,Object,Source of revenue information for the duplicate column.
+env_units,Object,"Units used for environmental metrics (e.g., MTCO2E - Metric tonnes of CO₂ equivalent)."
+env_units_words,Object,"Description of environmental units in words (e.g., 'Millions of tonnes of estimated carbon dioxide equivalent')."
+company_website,Object,URL of the company’s official website.
+report_url,Object,URL to the company’s sustainability report or environmental report.
+report_name,Object,Name of the sustainability report (if available).
+company_ticker,Object,Stock ticker symbol of the company (if available).
+company_exchange,Object,Stock exchange where the company is listed (if available).
